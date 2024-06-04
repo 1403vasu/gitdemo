@@ -9,7 +9,8 @@ public class Frame1 {
 		public void output()
 		{
 			System.out.println("welcome");
-			
+			System.out.println("welcome1");
+			System.out.println("welcome2");
 		}
 		@Test
 		public void input()
