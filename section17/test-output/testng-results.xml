@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-02T12:38:10 IST" name="Suite" finished-at="2024-05-02T12:38:10 IST" duration-ms="158">
+    <groups>
+      <group name="smoke">
+        <method signature="frame3.homeloan()[pri:0, instance:Testingframework.section17.frame3@130d63be]" name="homeloan" class="Testingframework.section17.frame3"/>
+        <method signature="frame4$TestNg.webpage()[pri:0, instance:Testingframework.section17.frame4$TestNg@42a48628]" name="webpage" class="Testingframework.section17.frame4$TestNg"/>
+        <method signature="Frame2$TestNg.output()[pri:0, instance:Testingframework.section17.Frame2$TestNg@72967906]" name="output" class="Testingframework.section17.Frame2$TestNg"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-05-02T12:38:10 IST" name="Test" finished-at="2024-05-02T12:38:10 IST" duration-ms="158">
+      <class name="Testingframework.section17.frame3">
+        <test-method signature="homeloan()[pri:0, instance:Testingframework.section17.frame3@130d63be]" started-at="2024-05-02T12:38:10 IST" name="homeloan" finished-at="2024-05-02T12:38:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeloan -->
+        <test-method signature="webpages(java.lang.String)[pri:0, instance:Testingframework.section17.frame3@130d63be]" started-at="2024-05-02T12:38:10 IST" name="webpages" finished-at="2024-05-02T12:38:10 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qaclickacademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webpages -->
+        <test-method signature="ex()[pri:0, instance:Testingframework.section17.frame3@130d63be]" started-at="2024-05-02T12:38:10 IST" name="ex" finished-at="2024-05-02T12:38:10 IST" depends-on-methods="Testingframework.section17.frame3.homeloan" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ex -->
+      </class> <!-- Testingframework.section17.frame3 -->
+      <class name="Testingframework.section17.frame4$TestNg">
+        <test-method signature="carloan()[pri:0, instance:Testingframework.section17.frame4$TestNg@42a48628]" started-at="2024-05-02T12:38:10 IST" name="carloan" finished-at="2024-05-02T12:38:10 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carloan -->
+        <test-method signature="ex()[pri:0, instance:Testingframework.section17.frame4$TestNg@42a48628]" started-at="2024-05-02T12:38:10 IST" name="ex" finished-at="2024-05-02T12:38:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ex -->
+        <test-method signature="webpage()[pri:0, instance:Testingframework.section17.frame4$TestNg@42a48628]" started-at="2024-05-02T12:38:10 IST" name="webpage" finished-at="2024-05-02T12:38:10 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webpage -->
+      </class> <!-- Testingframework.section17.frame4$TestNg -->
+      <class name="Testingframework.section17.Frame1$TestNg">
+        <test-method signature="input()[pri:0, instance:Testingframework.section17.Frame1$TestNg@4f83df68]" started-at="2024-05-02T12:38:10 IST" name="input" finished-at="2024-05-02T12:38:10 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- input -->
+        <test-method signature="output()[pri:0, instance:Testingframework.section17.Frame1$TestNg@4f83df68]" started-at="2024-05-02T12:38:10 IST" name="output" finished-at="2024-05-02T12:38:10 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- output -->
+      </class> <!-- Testingframework.section17.Frame1$TestNg -->
+      <class name="Testingframework.section17.Frame2$TestNg">
+        <test-method signature="input()[pri:0, instance:Testingframework.section17.Frame2$TestNg@72967906]" started-at="2024-05-02T12:38:10 IST" name="input" finished-at="2024-05-02T12:38:10 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- input -->
+        <test-method signature="output()[pri:0, instance:Testingframework.section17.Frame2$TestNg@72967906]" started-at="2024-05-02T12:38:10 IST" name="output" finished-at="2024-05-02T12:38:10 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- output -->
+      </class> <!-- Testingframework.section17.Frame2$TestNg -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

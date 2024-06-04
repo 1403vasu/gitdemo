@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+   
+  <test thread-count="5" name="Regression Test">
+	<groups>
+		<run>
+			<include name = "smoke"/>
+		</run>
+	</groups>
+    <classes>
+      <class name="Testingframework.section17.Frame2"/>
+      <class name="Testingframework.section17.Frame1"/>
+      <class name="Testingframework.section17.frame3"/>
+      <class name="Testingframework.section17.frame4"/>
+    </classes>
+  </test> 
+</suite>
